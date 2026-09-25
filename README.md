@@ -53,35 +53,7 @@ Detalle completo en [docs/requirements.md](docs/requirements.md).
 
 ---
 
-## 📂 Estructura del repositorio
-
-data-warehouse-project/
-│
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
-│
-├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
-│
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
-│
-├── tests/                              # Test scripts and quality files
-│
-├── README.md                           # Project overview and instructions
-├── LICENSE                             # License information for the repository
-├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project
-
-
----
-
+<pre> ## 📂 Estructura del repositorio ``` data-warehouse-project/ │ ├── datasets/ # Datasets crudos (ERP y CRM) │ ├── docs/ # Documentación y arquitectura │ ├── etl.drawio # Técnicas y métodos de ETL │ ├── data_architecture.drawio # Arquitectura del proyecto │ ├── data_catalog.md # Catálogo de datos y metadata │ ├── data_flow.drawio # Diagrama de flujo de datos │ ├── data_models.drawio # Modelos de datos (esquema estrella) │ ├── naming_conventions.md # Convenciones de nomenclatura │ ├── scripts/ # Scripts SQL de ETL y transformación │ ├── bronze/ # Extracción y carga de datos crudos │ ├── silver/ # Limpieza y transformación │ ├── gold/ # Modelos analíticos │ ├── tests/ # Scripts de pruebas y calidad de datos │ ├── README.md # Descripción del proyecto ├── LICENSE # Licencia del repositorio └── .gitignore # Archivos ignorados por Git ``` </pre>
 ## 🛡️ Licencia
 
 Este proyecto está bajo la [Licencia MIT](LICENSE). Libre de usar, modificar y compartir con la atribución correspondiente.
