@@ -1,4 +1,3 @@
-<img width="1544" height="912" alt="data_architecture" src="https://github.com/user-attachments/assets/ba420eab-5609-4442-a70b-975fcbc1f45e" />
 # Data Warehouse y Analytics con SQL Server
 
 Proyecto de portafolio que construye un data warehouse completo desde cero: ingesta de datos crudos, limpieza, modelado en esquema estrella y análisis SQL para responder preguntas de negocio.
