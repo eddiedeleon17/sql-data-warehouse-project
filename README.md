@@ -51,9 +51,33 @@ El proyecto sigue la **arquitectura Medallion** con tres capas:
 
 Detalle completo en [docs/requirements.md](docs/requirements.md).
 
----
+## 📂 Estructura del repositorio
 
-<pre> ## 📂 Estructura del repositorio ``` data-warehouse-project/ │ ├── datasets/ # Datasets crudos (ERP y CRM) │ ├── docs/ # Documentación y arquitectura │ ├── etl.drawio # Técnicas y métodos de ETL │ ├── data_architecture.drawio # Arquitectura del proyecto │ ├── data_catalog.md # Catálogo de datos y metadata │ ├── data_flow.drawio # Diagrama de flujo de datos │ ├── data_models.drawio # Modelos de datos (esquema estrella) │ ├── naming_conventions.md # Convenciones de nomenclatura │ ├── scripts/ # Scripts SQL de ETL y transformación │ ├── bronze/ # Extracción y carga de datos crudos │ ├── silver/ # Limpieza y transformación │ ├── gold/ # Modelos analíticos │ ├── tests/ # Scripts de pruebas y calidad de datos │ ├── README.md # Descripción del proyecto ├── LICENSE # Licencia del repositorio └── .gitignore # Archivos ignorados por Git ``` </pre>
+```
+data-warehouse-project/
+│
+├── datasets/                           # Datasets crudos (ERP y CRM)
+│
+├── docs/                               # Documentación y arquitectura
+│   ├── etl.drawio                      # Técnicas y métodos de ETL
+│   ├── data_architecture.drawio        # Arquitectura del proyecto
+│   ├── data_catalog.md                 # Catálogo de datos y metadata
+│   ├── data_flow.drawio                # Diagrama de flujo de datos
+│   ├── data_models.drawio              # Modelos de datos (esquema estrella)
+│   ├── naming_conventions.md           # Convenciones de nomenclatura
+│
+├── scripts/                            # Scripts SQL de ETL y transformación
+│   ├── bronze/                         # Extracción y carga de datos crudos
+│   ├── silver/                         # Limpieza y transformación
+│   ├── gold/                           # Modelos analíticos
+│
+├── tests/                              # Scripts de pruebas y calidad de datos
+│
+├── README.md                           # Descripción del proyecto
+├── LICENSE                             # Licencia del repositorio
+└── .gitignore                          # Archivos ignorados por Git
+```
+
 ## 🛡️ Licencia
 
 Este proyecto está bajo la [Licencia MIT](LICENSE). Libre de usar, modificar y compartir con la atribución correspondiente.
